@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "251982174103",
+    "firebase_url": "https://ugsystem-42d6a.firebaseio.com",
+    "project_id": "ugsystem-42d6a",
+    "storage_bucket": "ugsystem-42d6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251982174103:android:0f1123c95f0f5040",
+        "android_client_info": {
+          "package_name": "lab.hwang.ug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251982174103-8p40f2d62nsmrcj6rjre7emjqt3ftch0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lab.hwang.ug",
+            "certificate_hash": "bd332f631defc2cfdecc082c20afc7c7f1cb63b5"
+          }
+        },
+        {
+          "client_id": "251982174103-k7kovjtae77pohijs9b296m4jbjs449s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQx1QwFzR51RUIImSaDQ1C-53DMfYq_Ps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251982174103-k7kovjtae77pohijs9b296m4jbjs449s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

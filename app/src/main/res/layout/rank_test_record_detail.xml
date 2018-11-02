@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/test_detail_bg"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="1100dp"
+        android:layout_height="30dp"
+        android:layout_x="100dp"
+        android:layout_y="50dp"
+        android:text="  No.          實體物件與邊長 (cm)            形狀                                計算式                             計算過程                         批改"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/rank_test_record_detail"
+        android:layout_width="1000dp"
+        android:layout_height="384dp"
+        android:layout_x="120dp"
+        android:layout_y="130dp"
+        android:cacheColorHint="@android:color/transparent">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/back_home"
+        android:layout_width="152dp"
+        android:layout_height="131dp"
+        android:layout_x="15dp"
+        android:layout_y="585dp"
+        android:background="#00000000" />
+
+</AbsoluteLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="500dp"
+    android:layout_height="450dp"
+    android:background="#F1FFB3"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="                 學號                 批閱結果"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="500dp"
+        android:layout_height="2dp"
+        android:layout_x="0dp"
+        android:layout_y="51dp"
+        android:background="#000000" />
+    <ListView
+        android:id="@+id/show_others_marks"
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:layout_x="0dp"
+        android:layout_y="55dp"
+        android:cacheColorHint="@android:color/transparent">
+    </ListView>
+    <ImageView
+        android:id="@+id/but_line"
+        android:layout_width="500dp"
+        android:layout_height="2dp"
+        android:layout_x="0dp"
+        android:layout_y="405dp"
+        android:background="#000000" />
+    <TextView
+        android:id="@+id/no_marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="420dp"
+        android:text="目前沒有人批閱此作業"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/close_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="240dp"
+        android:layout_y="420dp"
+        android:text="點擊圖片外區域可關閉視窗"
+        android:textSize="20sp" />
+</AbsoluteLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_07b656b7757ba9e0cc96306f92d8cb2849314def/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_5c150b33a12927989bc7645fe0421d634be1dd2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-11.0.4_8112099314a791bb377e65ce05c872b5334f980e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-11.0.4_89c0d94dc52ebfaf75cd0a97a2e964c372537a68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-11.0.4_528a5fc29f409d121ce14843ee8ee0d1fa000bff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1b12397bc9f342b29d9e9108978828f99a6da579">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-11.0.4_14a518984ae7be25d84233267ce5b36d401b7c98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7c24e2e9773fb498e390ce973db382c3ddcf748e">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-11.0.4_484d714019094084e40eafb047fd42293f671d19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_8d2e4aee3297cea26bdbcd49ee24c1e9813ba102/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_79ef4c06f4599ce58451b1976531c9ea175565f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_fd45c6632b1f24777593f129e20a2a0a34bd9a5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_fccc8e5b35b6ee682b88a44320b2b30d98d09853/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3ac08c35419ab7cf9146969de471768dbe502f0f">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-11.0.4_d45962fc3a36f33a6939ee7bc79f10f24c5dfa6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-11.0.4_ab0af0c92316a0f0777b756286ac12cc4220e6c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_be1587c2a91a04ebbc6e78dfb4e0d4342bdabad9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b685077cdb08cf7ae8b61afd1fe910e47d91b9a">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-11.0.4_8c5151731f3f645a476043d92eae813149ec8b3b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/libs/libGoogleAnalytics.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8d0254fe638021ff2ae4fe5bd53c2937006fdab5">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/2/libGoogleAnalytics_1e75ee100c73505bd42042a239e12f5c9803de2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_ef1a757eac66c6a50f8fc23db3d4c53827aeaabb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-11.0.4_8f01d78dfb0a126a072a06bd9a6e8993c5a31084/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_1801bce20b0a0a7c5b4e51703582c9b1d66f96ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_dc3f6f18ae2d938840dabdf6c7ac126e91fb2ea0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_cc7446e0de6d9fe9b10cdfca2ce5412274149fc8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_6e90be72e6b047e41449e6b278539ed09ba7b778/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.8.0_4b4e2ba8a9df8877ef92486097d97b006118d0b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/phoebe/UG/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/phoebe/UG/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_0f714f0c96c110a491f6c20b31cfcb3c907bd031/classes.dex" />
+    </item>
+
+</items>

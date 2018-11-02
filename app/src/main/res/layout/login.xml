@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:background="@drawable/login_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="4dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="lab.hwang.ug.Login"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="281dp"
+        android:layout_height="40dp"
+        android:layout_x="624dp"
+        android:layout_y="132dp"
+        android:ems="14"
+        android:maxLength="8"
+        android:text="stu31"
+        android:background="#00000000"
+
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
+        android:layout_x="624dp"
+        android:layout_y="232dp"
+        android:ems="14"
+        android:maxLength="8"
+        android:text="stu31"
+        android:password="true"
+        android:background="#00000000"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/login_but"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_x="860dp"
+        android:layout_y="232dp"
+        android:background="#00000000" />
+</AbsoluteLayout>

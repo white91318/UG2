@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/book_concept2"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.79"
+            android:background="#00000000" />
+
+        <Button
+            android:id="@+id/forward_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_weight="5.97"
+            android:background="#00000000" />
+
+        <ImageSwitcher
+            android:id="@+id/imageSwitcher1_t1"
+            android:layout_width="652dp"
+            android:layout_height="533dp"
+            android:layout_weight="3.16">
+
+        </ImageSwitcher>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="136dp"
+            android:layout_height="704dp"
+            android:layout_weight="1.35">
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button7"
+                android:layout_weight="0.37"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/next_t1"
+                android:layout_width="match_parent"
+                android:layout_height="127dp"
+                android:layout_weight="0.11"
+                android:background="#00000000" />
+
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button8"
+                android:layout_weight="0.16"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/chose_but_t1"
+                android:layout_width="142dp"
+                android:layout_height="96dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/test_but"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+

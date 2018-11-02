@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="1000dp"
+    android:layout_height="225dp"
+    >
+    <TextView
+        android:id="@+id/_ID"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="No."
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="10dp"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/line" />
+    <TextView
+        android:id="@+id/show_hight"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="hight (m)"
+        android:textSize="15dp"
+        android:rotation="-90"
+        android:textColor="#000000"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="220dp"
+        android:layout_height="fill_parent"
+        >
+        <TextView
+            android:id="@+id/show_top_width"
+            android:layout_width="fill_parent"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="width (m)"
+            android:textSize="15dp"
+            android:textColor="#000000"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/object_pic"
+            android:layout_width="220dp"
+            android:layout_height="165dp" />
+        <TextView
+            android:id="@+id/show_width"
+            android:layout_width="fill_parent"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="width (m)"
+            android:textSize="15dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="10dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/line"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/calculate_shape"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="平行四邊形"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="10dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/line"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/calculate_process"
+        android:layout_width="310dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|left"
+        android:text="0.15 * 0.25 / 0.22 = 0.1144588"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/ImageView04"
+        android:layout_width="10dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/line"
+        android:scaleType="fitXY"  />
+
+    <ImageView
+        android:id="@+id/calculate_pic"
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="160dp"/>
+
+    <ImageView
+        android:id="@+id/ImageView05"
+        android:layout_width="10dp"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/line" />
+    <TextView
+        android:id="@+id/check_right"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="計算過程有誤"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+</LinearLayout>

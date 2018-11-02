@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book_concept_0" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1_p1"
+        android:layout_width="367dp"
+        android:layout_height="198dp"
+        android:layout_x="555dp"
+        android:layout_y="233dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radioBut1_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="758dp"
+            android:layout_y="211dp"
+            android:text="　底　Ｘ　高　"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/radioBut2_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="762dp"
+            android:layout_y="280dp"
+            android:text="　長　X　寬　"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/radioBut3_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="　長　Ｘ　寬　÷　２　"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text1_p1"
+        android:layout_width="237dp"
+        android:layout_height="88dp"
+        android:layout_x="701dp"
+        android:layout_y="430dp"
+        android:text=" "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/sure2"
+        android:layout_width="135dp"
+        android:layout_height="117dp"
+        android:layout_x="712dp"
+        android:layout_y="432dp"
+        android:background="@drawable/sure_but"
+        />
+
+    <Button
+        android:id="@+id/button1_p1"
+        android:layout_width="435dp"
+        android:layout_height="316dp"
+        android:layout_x="115dp"
+        android:layout_y="190dp"
+        android:background="@drawable/p9" />
+
+</AbsoluteLayout>

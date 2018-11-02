@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rank_all"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="520dp"
+        android:layout_height="30dp"
+        android:layout_x="260dp"
+        android:layout_y="154dp"
+        android:text="  排名       學號        總題數     正確題數     錯誤題數       分數"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="530dp"
+        android:layout_height="2dp"
+        android:layout_x="250dp"
+        android:layout_y="194dp"
+        android:background="#ffffff" />
+    <ListView
+        android:id="@+id/rank_test_record"
+        android:layout_width="540dp"
+        android:layout_height="400dp"
+        android:layout_x="240dp"
+        android:layout_y="196dp"
+        android:cacheColorHint="@android:color/transparent">
+    </ListView>
+    <ImageView
+        android:id="@+id/button_line"
+        android:layout_width="530dp"
+        android:layout_height="2dp"
+        android:layout_x="250dp"
+        android:layout_y="596dp"
+        android:background="#ffffff" />
+
+    <Button
+        android:id="@+id/back_home"
+        android:layout_width="140dp"
+        android:layout_height="131dp"
+        android:layout_x="10dp"
+        android:layout_y="620dp"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/rank3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_x="935dp"
+        android:layout_y="547dp"
+        android:gravity="center"
+        android:text="stu10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rank1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_x="880dp"
+        android:layout_y="503dp"
+        android:gravity="center"
+        android:text="stu10"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rank2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_x="820dp"
+        android:layout_y="533dp"
+        android:gravity="center"
+        android:text="stu10"
+        android:textSize="18sp" />
+
+</AbsoluteLayout>

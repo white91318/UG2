@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_b" >
+
+    <Button
+        android:id="@+id/previous_but"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="667dp"
+        android:text="上一頁" />
+
+</AbsoluteLayout>

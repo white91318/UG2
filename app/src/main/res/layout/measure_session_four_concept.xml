@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="1040dp"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <SurfaceView
+        android:id="@+id/mSurfaceView5"
+        android:layout_width="1040dp"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/cutwidth5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/targetview5"
+        android:layout_width="996dp"
+        android:layout_height="673dp"
+        android:src="@drawable/target" />
+
+    <Button
+        android:id="@+id/lock_width5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="870dp"
+        android:layout_y="610dp"
+        android:background="@drawable/lock_width_but"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/lock_hight5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="870dp"
+        android:layout_y="610dp"
+        android:background="@drawable/lock_hight_but"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/left_tv5"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="400dp"
+        android:text="寬度:"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/right_pic5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="795dp"
+        android:layout_y="220dp" />
+
+
+    <ImageView
+        android:id="@+id/right_cross5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="795dp"
+        android:layout_y="220dp"
+        android:src="@drawable/cross_white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/left_pic5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="10dp"
+        android:layout_y="220dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/left_cross5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="10dp"
+        android:layout_y="220dp"
+        android:src="@drawable/cross_white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/light5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="475dp"
+        android:layout_y="20dp"
+        android:src="@drawable/blue"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/reset5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="870dp"
+        android:layout_y="610dp"
+        android:background="@drawable/messure_ok_but"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/take_pic5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="870dp"
+        android:layout_y="610dp"
+        android:background="@drawable/take_pic_but"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/get_hight5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="37dp"
+        android:layout_y="610dp"
+        android:background="@drawable/hight_but"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/get_width5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="37dp"
+        android:layout_y="610dp"
+        android:background="@drawable/width_but"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/light_text5"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="700dp"
+        android:layout_marginTop="149dp"
+        android:layout_x="684dp"
+        android:layout_y="30dp"
+        android:text="light_text"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/get_distance_sec5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="37dp"
+        android:layout_y="610dp"
+        android:background="@drawable/sec_distance_but"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/right_pic_top5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="795dp"
+        android:layout_y="30dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/right_cross_top5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="795dp"
+        android:layout_y="30dp"
+        android:src="@drawable/cross_white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/get_hight_sec5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="37dp"
+        android:layout_y="610dp"
+        android:background="@drawable/hight_but_2"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/left_pic_top5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="10dp"
+        android:layout_y="30dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/left_cross_top5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_x="10dp"
+        android:layout_y="30dp"
+        android:src="@drawable/cross_white"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/zoom_in5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="805dp"
+        android:layout_y="460dp"
+        android:background="@drawable/mzoom_in"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/zoom_out5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="910dp"
+        android:layout_y="460dp"
+        android:background="@drawable/mzoom_out"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/cut_pic5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="37dp"
+        android:layout_y="610dp"
+        android:background="@drawable/cut_pic_but"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/calculate_but5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="870dp"
+        android:layout_y="610dp"
+        android:background="@drawable/concept_but"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/measure_board5"
+        android:layout_width="700dp"
+        android:layout_height="220dp"
+        android:layout_x="150dp"
+        android:layout_y="550dp"
+        android:src="@drawable/measure_board" />
+
+    <TextView
+        android:id="@+id/guidance_tv5"
+        android:layout_width="680dp"
+        android:layout_height="wrap_content"
+        android:layout_x="165dp"
+        android:layout_y="620dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/measure_process_tv5"
+        android:layout_width="680dp"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="658dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+
+
+    <TextView
+        android:id="@+id/right_tv5"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="790dp"
+        android:layout_marginTop="149dp"
+        android:layout_x="790dp"
+        android:layout_y="400dp"
+        android:gravity="left"
+        android:text=" "
+        android:textColor="#FFFFFF"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/lock_distance5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="700dp"
+        android:layout_x="870dp"
+        android:layout_y="610dp"
+        android:background="@drawable/takepic_distance" />
+</AbsoluteLayout>

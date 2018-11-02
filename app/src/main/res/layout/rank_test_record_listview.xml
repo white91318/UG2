@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800dp"
+    android:layout_height="80dp"
+    >
+    <ImageView
+        android:id="@+id/rank_pic"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/stu_icon" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="120dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="16"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/right_num"
+        android:layout_width="120dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="16"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/error_num"
+        android:layout_width="120dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="16"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/right_rate"
+        android:layout_width="120dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="16"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="220dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="04041822"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+</LinearLayout>

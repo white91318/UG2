@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="938dp"
+    android:layout_height="195dp"
+    >
+
+    <TextView
+        android:id="@+id/_ID"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="No."
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/line2" />
+    <TextView
+        android:id="@+id/show_hight"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="hight (m)"
+        android:textSize="15dp"
+        android:rotation="-90"
+        android:textColor="#FFFFFF"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="180dp"
+        android:layout_height="fill_parent"
+        >
+        <TextView
+            android:id="@+id/show_top_width"
+            android:layout_width="fill_parent"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="width (m)"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"/>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/object_pic"
+            android:layout_width="176dp"
+            android:layout_height="132dp" />
+        <TextView
+            android:id="@+id/show_width"
+            android:layout_width="fill_parent"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="width (m)"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/line2"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/calculate_process"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|left"
+        android:text="0.15 * 0.25 / 0.22 = 0.1144588"
+        android:textSize="16dp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/ImageView04"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/line2"
+        android:scaleType="fitXY"  />
+
+    <ImageView
+        android:id="@+id/calculate_pic"
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="160dp"/>
+
+    <ImageView
+        android:id="@+id/ImageView05"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/line2" />
+    <TextView
+        android:id="@+id/show_date"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="4月10日 23:23:23"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

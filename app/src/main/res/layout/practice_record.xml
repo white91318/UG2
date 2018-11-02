@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/practice_list_bg"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="800dp"
+        android:layout_height="30dp"
+        android:layout_x="130dp"
+        android:layout_y="120dp"
+        android:text="No.    實體物件與邊長 (cm)           計算式                        計算過程                      日期"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+    <ImageView
+        android:id="@+id/top_line"
+        android:layout_width="800dp"
+        android:layout_height="2dp"
+        android:layout_x="130dp"
+        android:layout_y="170dp"
+        android:background="#ffffff" />
+    <ListView
+        android:id="@+id/practice_listview"
+        android:layout_width="800dp"
+        android:layout_height="430dp"
+        android:layout_x="130dp"
+        android:layout_y="172dp"
+        android:cacheColorHint="@android:color/transparent">
+    </ListView>
+    <ImageView
+        android:id="@+id/button_line"
+        android:layout_width="800dp"
+        android:layout_height="2dp"
+        android:layout_x="130dp"
+        android:layout_y="620dp"
+        android:background="#ffffff" />
+
+    <Button
+        android:id="@+id/back_home"
+        android:layout_width="152dp"
+        android:layout_height="131dp"
+        android:layout_x="28dp"
+        android:layout_y="600dp"
+        android:background="#00000000" />
+
+</AbsoluteLayout>

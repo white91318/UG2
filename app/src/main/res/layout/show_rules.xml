@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="800dp"
+    android:layout_height="660dp"
+    >
+    <ImageView
+        android:id="@+id/show_pic_large_mess"
+        android:layout_y="30dp"
+        android:layout_width="800dp"
+        android:layout_height="600dp"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="403dp"
+        android:layout_y="630dp"
+        android:text="點擊圖片外區域可關閉放大圖視窗"
+        android:textSize="25sp" />
+
+</AbsoluteLayout>

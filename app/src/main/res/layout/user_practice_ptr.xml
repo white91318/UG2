@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:background="@drawable/paint_ques">
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/button_layout"
+        android:layout_width="732dp"
+        android:layout_height="61dp"
+        android:layout_x="423dp"
+        android:layout_y="0dp"
+        android:background="@drawable/paint_bg">
+
+        <Button
+            android:id="@+id/draw_page_1"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_x="59dp"
+            android:layout_y="30dp"
+            android:text="1"
+            android:background="#dddddd" />
+
+        <Button
+            android:id="@+id/draw_page_2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_x="135dp"
+            android:layout_y="30dp"
+            android:text="2"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/draw_page_3"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_x="210dp"
+            android:layout_y="30dp"
+            android:text="3"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/pen"
+            android:layout_width="57dp"
+            android:layout_height="48dp"
+            android:layout_x="290dp"
+            android:background="@drawable/paint_pen"
+            android:layout_y="14dp" />
+
+        <Button
+            android:id="@+id/pen_size"
+            android:layout_width="57dp"
+            android:layout_height="48dp"
+            android:layout_x="350dp"
+            android:background="@drawable/paint_size"
+            android:layout_y="14dp" />
+
+        <Button
+            android:id="@+id/pen_color"
+            android:layout_width="57dp"
+            android:layout_height="48dp"
+            android:layout_x="410dp"
+            android:background="@drawable/paint_color"
+            android:layout_y="14dp" />
+
+        <Button
+            android:id="@+id/erase"
+            android:layout_width="57dp"
+            android:layout_height="48dp"
+            android:layout_x="470dp"
+            android:background="@drawable/paint_erase"
+            android:layout_y="14dp" />
+
+        <Button
+            android:id="@+id/clean"
+            android:layout_width="57dp"
+            android:layout_height="48dp"
+            android:layout_x="530dp"
+            android:background="@drawable/paint_clean"
+            android:layout_y="14dp" />
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+
+        android:id="@+id/abs2"
+        android:layout_width="800dp"
+        android:layout_height="700dp"
+        android:layout_x="465dp"
+        android:layout_y="60dp"
+        >
+
+        <ImageView
+            android:id="@+id/show_process"
+            android:layout_width="800dp"
+            android:layout_height="700dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            />
+
+
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/abs1"
+        android:layout_width="465dp"
+        android:layout_height="897dp"
+        android:layout_x="-3dp"
+        android:layout_y="60dp"
+        android:background="#EEEEEE"
+        >
+
+        <ImageView
+            android:id="@+id/object_frame"
+            android:layout_width="306dp"
+            android:layout_height="213dp"
+            android:layout_x="54dp"
+            android:layout_y="0dp"
+            android:src="@drawable/object_frame2" />
+
+        <ImageView
+            android:id="@+id/object_pic"
+            android:layout_width="287dp"
+            android:layout_height="182dp"
+            android:layout_x="73dp"
+            android:layout_y="28dp"
+            android:src="@drawable/white" />
+        <ImageView
+            android:id="@+id/ca_hint_pic"
+            android:layout_x="390dp"
+            android:layout_y="10dp"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:src="@drawable/rectangle_ca_hint"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/width_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="185dp"
+            android:layout_y="219dp"
+            android:text="100.00 (cm)"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/hight_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="97dp"
+            android:gravity="center"
+            android:rotation="-90"
+            android:text="100.00 (cm)"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/hight2_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="323dp"
+            android:layout_y="109dp"
+            android:gravity="center"
+            android:rotation="-90"
+            android:text="100.00 (cm)"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/keyboard_1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="20dp"
+            android:layout_y="465dp"
+            android:background="@drawable/keyboard_1"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="110dp"
+            android:layout_y="465dp"
+            android:background="@drawable/keyboard_2"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="200dp"
+            android:layout_y="465dp"
+            android:background="@drawable/keyboard_3"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="290dp"
+            android:layout_y="465dp"
+            android:background="@drawable/keyboard_4"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="380dp"
+            android:layout_y="465dp"
+            android:background="@drawable/keyboard_5"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="20dp"
+            android:layout_y="535dp"
+            android:background="@drawable/keyboard_6"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_7"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="110dp"
+            android:layout_y="535dp"
+            android:background="@drawable/keyboard_7"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_8"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="200dp"
+            android:layout_y="535dp"
+            android:background="@drawable/keyboard_8"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_9"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="290dp"
+            android:layout_y="535dp"
+            android:background="@drawable/keyboard_9"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_0"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="380dp"
+            android:layout_y="535dp"
+            android:background="@drawable/keyboard_0"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_point"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="110dp"
+            android:layout_y="605dp"
+            android:background="@drawable/keyboard_point"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_erase"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="200dp"
+            android:layout_y="605dp"
+            android:background="@drawable/keyboard_erase"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_clean"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="290dp"
+            android:layout_y="605dp"
+            android:background="@drawable/keyboard_clean"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_plus"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="65dp"
+            android:layout_y="530dp"
+            android:background="@drawable/keyboard_plus"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_minus"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="155dp"
+            android:layout_y="530dp"
+            android:background="@drawable/keyboard_minus"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_multiply"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="245dp"
+            android:layout_y="530dp"
+            android:background="@drawable/keyboard_multiply"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/keyboard_division"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_x="335dp"
+            android:layout_y="530dp"
+            android:background="@drawable/keyboard_division"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/input_tv1_bg"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_x="11dp"
+            android:layout_y="357dp"
+            android:background="#FFFFFF00"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/input_tv2_bg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_x="100dp"
+            android:layout_y="367dp"
+            android:background="#FFFFFF00"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/input_tv3_bg"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_x="140dp"
+            android:layout_y="357dp"
+            android:background="#FFFFFF00"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/input_tv6_bg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_x="240dp"
+            android:layout_y="367dp"
+            android:background="#FFFFFF00"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/input_tv8_bg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_x="350dp"
+            android:layout_y="365dp"
+            android:background="#FFFFFF00"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/input_tv3"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_x="145dp"
+            android:layout_y="360dp"
+            android:background="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="寬"
+            android:textSize="20sp"
+            />
+
+
+        <ImageView
+            android:id="@+id/input_tv7_bg"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_x="281dp"
+            android:layout_y="357dp"
+            android:background="#FFFFFF00"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/input_tv9_bg"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_x="395dp"
+            android:layout_y="359dp"
+            android:background="#FFFFFF00"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/input_tv7"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_x="285dp"
+            android:layout_y="360dp"
+            android:background="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="2"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/input_tv9"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_x="402dp"
+            android:layout_y="363dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/input_tv5_bg"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_x="374dp"
+            android:layout_y="428dp"
+            android:background="#FFFFFF00"
+            android:visibility="gone"
+            />
+
+
+        <Button
+            android:id="@+id/confirm_but"
+            android:layout_width="48dp"
+            android:layout_height="60dp"
+            android:layout_x="400dp"
+            android:layout_y="610dp"
+            android:background="@drawable/confirm_but"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/top_width_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="185dp"
+            android:layout_y="-2dp"
+            android:text="100.00 (cm)"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/show_fault_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="120dp"
+            android:layout_y="630dp"
+            android:text="運算過程有誤!"
+            android:textColor="#ff0000"
+            android:textSize="28sp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/hint1_but"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_x="410dp"
+            android:layout_y="118dp"
+            android:background="@drawable/hint_tv" />
+
+        <Button
+            android:id="@+id/hint2_but"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_x="410dp"
+            android:layout_y="20dp"
+            android:background="@drawable/hint_tv_calculate" />
+
+        <ImageView
+            android:id="@+id/show_pic_large_mess"
+            android:layout_width="144dp"
+            android:layout_height="48dp"
+            android:layout_x="308dp"
+            android:layout_y="228dp"
+            android:src="@drawable/show_pic_large_mess" />
+
+        <TextView
+            android:id="@+id/show_input_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="9dp"
+            android:layout_y="280dp"
+            android:text="點擊下方空格輸入運算式\n例如:3        十        4        +        2   +        2       =        11"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/input_tv2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="105dp"
+            android:layout_y="371dp"
+            android:background="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/input_tv6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="245dp"
+            android:layout_y="371dp"
+            android:background="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="+"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/input_tv8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="354dp"
+            android:layout_y="374dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/input_tv1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_x="16dp"
+            android:layout_y="360dp"
+            android:background="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="長"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/input_tv4"
+            android:layout_width="18dp"
+            android:layout_height="25dp"
+            android:layout_x="355dp"
+            android:layout_y="447dp"
+            android:background="#EEEEEE"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/input_tv5"
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:layout_x="378dp"
+            android:layout_y="431dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="周長(CM)"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </AbsoluteLayout>
+
+</AbsoluteLayout>

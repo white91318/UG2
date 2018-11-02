@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame_big_1" >
+
+    <ImageView
+        android:id="@+id/object_concept1"
+        android:layout_width="1026dp"
+        android:layout_height="424dp"
+        android:layout_x="69dp"
+        android:layout_y="118dp"
+        android:src="@drawable/white" />
+    <TextView
+        android:id="@+id/version3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1121dp"
+        android:layout_y="698dp"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/person_hight"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_x="930dp"
+        android:layout_y="700dp"
+        android:background="#00000000"
+        android:text="123" />
+    <!--android:scaleType="matrix"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="50dp" >
+
+        <ImageView
+            android:id="@+id/r_image01"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+
+            />
+
+        <ImageView
+            android:id="@+id/r_image02"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+
+            />
+
+        <ImageView
+            android:id="@+id/r_image03"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+
+        <ImageView
+            android:id="@+id/t_image01"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/t_image02"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/t_image03"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+
+        <ImageView
+            android:id="@+id/p_image01"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/p_image02"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/p_image03"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/d_image01"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/d_image02"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/d_image03"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/t2_image01"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/t2_image02"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+        <ImageView
+            android:id="@+id/t2_image03"
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:scaleType="matrix"
+            />
+
+        <Button
+            android:id="@+id/concept_total"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/total_concept"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/t_but01"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_x="268dp"
+        android:layout_y="585dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/t_but02"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="218dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/r_but01"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_x="68dp"
+        android:layout_y="585dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/p_but01"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_x="460dp"
+        android:layout_y="585dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/p_but02"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="410dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/p_but03"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="505dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/d_but01"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_x="650dp"
+        android:layout_y="585dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/d_but02"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="615dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/d_but03"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="710dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/t2_but01"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_x="855dp"
+        android:layout_y="585dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/t2_but02"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="810dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/t2_but03"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="910dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/r_but02"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="25dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/r_but03"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="115dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/t_but03"
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:layout_x="315dp"
+        android:layout_y="648dp"
+        android:background="#00000000" />
+
+</AbsoluteLayout>

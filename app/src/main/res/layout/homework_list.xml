@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homework_list_bg_ini"
+    >
+
+    <ListView
+        android:id="@+id/homework_listview"
+        android:layout_width="254dp"
+        android:layout_height="215dp"
+        android:layout_x="45dp"
+        android:layout_y="104dp"
+        android:cacheColorHint="@android:color/transparent">
+    </ListView>
+
+    <ListView
+        android:id="@+id/submit_homework_stu_listview"
+        android:layout_width="254dp"
+        android:layout_height="281dp"
+        android:layout_x="41dp"
+        android:layout_y="417dp"
+        android:cacheColorHint="@android:color/transparent">
+
+    </ListView>
+    <TextView
+        android:id="@+id/click_question_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="439dp"
+        android:layout_y="100dp"
+        android:text="題目:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/click_stu_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="845dp"
+        android:layout_y="100dp"
+        android:textSize="25sp"
+        android:text="學生:" />
+
+    <TextView
+        android:id="@+id/click_stu_value_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="363dp"
+        android:layout_y="470dp"
+        android:textSize="25sp"
+        android:text="計算式:0.35*0.11=2.999" />
+
+    <Button
+        android:id="@+id/click_want_comment"
+        android:layout_width="177dp"
+        android:layout_height="60dp"
+        android:layout_x="361dp"
+        android:layout_y="542dp"
+        android:background="#00000000"
+        />
+
+    <Button
+        android:id="@+id/click_see_others_comment"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_x="624dp"
+        android:layout_y="542dp"
+        android:background="#00000000"
+        />
+
+    <ImageView
+        android:id="@+id/click_object_pic"
+        android:layout_width="280dp"
+        android:layout_height="185dp"
+        android:layout_x="393dp"
+        android:layout_y="205dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/click_stu_process"
+        android:layout_width="243dp"
+        android:layout_height="210dp"
+        android:layout_x="790dp"
+        android:layout_y="195dp"
+        android:src="@drawable/paint_color" />
+
+    <TextView
+        android:id="@+id/hight_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="317dp"
+        android:layout_y="273dp"
+        android:gravity="center"
+        android:text="100.00 (m)"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:rotation="-90"/>
+
+    <TextView
+        android:id="@+id/width_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="490dp"
+        android:layout_y="395dp"
+        android:gravity="center"
+        android:text="99.00 (m)"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/width_top_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="490dp"
+        android:layout_y="170dp"
+        android:gravity="center"
+        android:text="99.00 (m)"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="12dp"
+        android:textSize="20sp"
+        android:text="目前位置: 作業繳交區" />
+    <ImageView
+        android:id="@+id/back_home_mess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="28dp"
+        android:src="@drawable/back_home_mess"
+        />
+
+    <Button
+        android:id="@+id/home_bt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="3dp"
+        android:layout_y="0dp"
+        android:background="#00000000"/>
+
+    <ImageView
+        android:id="@+id/mark_homework"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_x="320dp"
+        android:layout_y="630dp"
+        android:src="@drawable/mark_homework" />
+
+    <ImageView
+        android:id="@+id/show_mark"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="630dp"
+        android:layout_y="5dp"
+        android:src="@drawable/mark_o" />
+    <ImageView
+        android:id="@+id/see_others_mark"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_x="585dp"
+        android:layout_y="630dp"
+        android:src="@drawable/others_mark" />
+</AbsoluteLayout>

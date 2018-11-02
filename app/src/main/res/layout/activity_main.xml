@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_3" >
+
+    <Button
+        android:id="@+id/session1_but_distance"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="40dp"
+        android:layout_y="80dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/session1_but_hight"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="40dp"
+        android:layout_y="186dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/session1_but_width"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="40dp"
+        android:layout_y="299dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/session1_but_distance2"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="40dp"
+        android:layout_y="408dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/session1_but_hight2"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="40dp"
+        android:layout_y="516dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+
+
+
+    <Button
+        android:id="@+id/rectangle_but"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="471dp"
+        android:layout_y="80dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/triangle_but"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="471dp"
+        android:layout_y="186dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/parallel_but"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="471dp"
+        android:layout_y="299dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/diamond_but"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="471dp"
+        android:layout_y="408dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/trapezoidal_but"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="471dp"
+        android:layout_y="516dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/session2_but_see_record"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="471dp"
+        android:layout_y="630dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/input_person_hight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="750dp"
+        android:layout_y="610dp"
+        android:text="input_person_hight"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/session3_teacher_sent_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="750dp"
+        android:layout_y="660dp"
+        android:text="teacher_sent_question"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/rank_test"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="560dp"
+        android:layout_y="410dp"
+        android:background="#00000000"
+        android:visibility="gone"
+
+        />
+
+    <Button
+        android:id="@+id/session3_but_map"
+        android:layout_width="340dp"
+        android:layout_height="110dp"
+        android:layout_x="137dp"
+        android:layout_y="410dp"
+        android:background="#00000000"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/session3_but_homework"
+        android:layout_width="66dp"
+        android:layout_height="110dp"
+        android:layout_x="616dp"
+        android:layout_y="417dp"
+        android:background="#00000000"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/upgrade_but"
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:layout_x="935dp"
+        android:layout_y="637dp"
+        android:background="@drawable/upgrade_icon" />
+
+    <TextView
+        android:id="@+id/person_hight"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="655dp"
+        android:text="你的身高:170(cm)"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="140dp"
+        android:layout_height="42dp"
+        android:layout_x="872dp"
+        android:layout_y="702dp"
+        android:gravity="right"
+        android:text="" />
+
+    <Button
+        android:id="@+id/basic_session1_ge"
+        android:layout_width="370dp"
+        android:layout_height="213dp"
+        android:layout_x="137dp"
+        android:layout_y="81dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/mesure_session1_ge"
+        android:layout_width="370dp"
+        android:layout_height="213dp"
+        android:layout_x="560dp"
+        android:layout_y="89dp"
+        android:background="#00000000" />
+
+</AbsoluteLayout>

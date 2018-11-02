@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/measure_one2">
+
+    <TextView
+        android:id="@+id/version2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="900dp"
+        android:layout_y="663dp"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/person_hight"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_x="864dp"
+        android:layout_y="693dp"
+        android:background="#00000000"
+        android:text="123" />
+
+    <Button
+        android:id="@+id/previous_but_one"
+        android:layout_width="77dp"
+        android:layout_height="83dp"
+        android:layout_x="29dp"
+        android:layout_y="618dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/session1_but_distance1"
+        android:layout_width="287dp"
+        android:layout_height="110dp"
+        android:layout_x="67dp"
+        android:layout_y="164dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/session1_but_hight1"
+        android:layout_width="274dp"
+        android:layout_height="121dp"
+        android:layout_x="382dp"
+        android:layout_y="160dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/session1_but_width1"
+        android:layout_width="274dp"
+        android:layout_height="121dp"
+        android:layout_x="691dp"
+        android:layout_y="161dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/session1_but_distance3"
+        android:layout_width="286dp"
+        android:layout_height="124dp"
+        android:layout_x="69dp"
+        android:layout_y="433dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/session1_but_hight3"
+        android:layout_width="281dp"
+        android:layout_height="118dp"
+        android:layout_x="379dp"
+        android:layout_y="434dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/session1_but_slash"
+        android:layout_width="282dp"
+        android:layout_height="121dp"
+        android:layout_x="689dp"
+        android:layout_y="430dp"
+        android:background="#00000000" />
+
+</AbsoluteLayout>

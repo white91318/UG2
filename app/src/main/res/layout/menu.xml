@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/person_hight"
+        android:title="person_hight"/>
+    <item android:id="@+id/get_distance"
+        android:title="get_distance"/>
+    <item android:id="@+id/get_distance_sky"
+        android:title="get_distance_sky"/>
+    <item android:id="@+id/get_hight"
+        android:title="get_hight"/>
+    <item android:id="@+id/get_hight_sky"
+        android:title="get_hight_sky"/>
+    <item android:id="@+id/get_width"
+        android:title="get_width"/>
+    <item android:id="@+id/get_area_ground"
+        android:title="get_area_ground"/>
+    <item android:id="@+id/get_area_wall"
+        android:title="get_area_wall"/>
+</menu>
